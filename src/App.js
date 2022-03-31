@@ -5,7 +5,7 @@ export default function App() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    document.title = "Set name of counts " + count;
+    document.title = `Set name of counts ${count}`;
   });
 
   return (
